@@ -1,1 +1,18 @@
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bugreport>
+<Name>Chat - the creator of a group conversation cannot rename it</Name>
+<Priority>Medium</Priority>
+<Severity>Critical</Severity>
+<steps_to_reproduce>
+	<steps step="1">Open www.test.website.com</steps> 
+	<steps step="2">Open a chat dialog with users</steps> 
+	<steps step="3">Click on Setting</steps> 
+</steps_to_reproduce>
+<Expected_result>all participants should be able to rename a group conversation</Expected_result>
+<Actual_result>the button Rename Conversation is disabled for the creator of the group conversation.</Actual_result>
+<Attachments>
+      <element>log.txt</element>
+      <element>screenshot.jpg</element>
+   </Attachments>
+   
+</bugreport>
